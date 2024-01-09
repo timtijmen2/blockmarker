@@ -6,7 +6,7 @@ Its programmed to be as dynamic as posible and very easily implemented in other 
 ## How to use
 The pack is made to be used in command creations and thus, requires some command knownledge.
 
-There are a few functions that you can use in your pack:
+The functions that you can use in your pack:
 - `blockmarker:get`
 - `blockmarker:turnback`
 - `blockmarker:killdrops`
