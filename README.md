@@ -78,3 +78,7 @@ A small usefull pack to quickly place markers in a area: [Place marker Pack](htt
    
    Chain2: `execute as @e[tag=blockmarker] at @s if entity @e[type=item,distance=..1] run function blockmarker:killdrops with entity @s data.block`
 
+---
+
+#### Credit
+This pack uses lootables from [https://github.com/Triton365/BlockState](https://github.com/Triton365/BlockState).
