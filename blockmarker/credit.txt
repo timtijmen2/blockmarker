@@ -1,1 +1,3 @@
+Github and docs of blockmarker: https://github.com/timtijmen2/blockmarker/
+
 This datapack uses the loottables from https://github.com/Triton365/BlockState
