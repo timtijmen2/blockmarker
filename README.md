@@ -81,4 +81,4 @@ A small usefull pack to quickly place markers in a area: [Place marker Pack](htt
 ---
 
 #### Credit
-This pack uses lootables from [https://github.com/Triton365/BlockState](https://github.com/Triton365/BlockState).
+This pack uses lootables from [https://github.com/Triton365/BlockState](https://github.com/Triton365/BlockState) to get blockstate data.
