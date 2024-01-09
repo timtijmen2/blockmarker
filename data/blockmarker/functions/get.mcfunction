@@ -1,6 +1,6 @@
 gamerule maxCommandChainLength 1000000
-execute unless score init rewrite.index matches 1 run scoreboard objectives add rewrite.index dummy
-execute unless score init rewrite.index matches 1 run scoreboard players set init rewrite.index 1
+scoreboard objectives add rewrite.index dummy
+
 ##clear data
 data remove storage minecraft:stringchange input
 data remove storage minecraft:stringchange output
