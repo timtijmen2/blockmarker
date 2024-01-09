@@ -10,7 +10,7 @@ data remove entity @s data.block
 
 ##Get Basic block Properties
 execute at @s run summon armor_stand ~ ~ ~ {Tags:["safeblock"],Invulnerable:1b,NoGravity:1b,Invisible:1}
-execute at @s positioned ~ ~ ~ run loot replace entity @e[tag=safeblock,limit=1,sort=nearest,distance=..0.1] weapon loot blockstate:get
+execute at @s positioned ~ ~ ~ run loot replace entity @e[tag=safeblock,limit=1,sort=nearest,distance=..0.1] weapon loot blockmarker:get
 execute as @e[tag=safeblock,limit=1,sort=nearest,distance=..0.1] at @s run loot replace entity @s weapon.offhand mine ~ ~ ~
 execute as @e[tag=safeblock,limit=1,sort=nearest,distance=..0.1] run data modify storage stringchange input.block set from entity @s HandItems[0].tag.Properties
 data modify entity @s data.block.Name set from entity @e[tag=safeblock,limit=1,sort=nearest,distance=..0.1] HandItems[0].tag.Name
