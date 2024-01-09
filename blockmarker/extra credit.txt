@@ -1,1 +1,0 @@
-This datapack uses the loottables from https://github.com/Triton365/BlockState
